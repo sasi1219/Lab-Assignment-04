@@ -1,4 +1,5 @@
-def greet(name):
-    print(f"Hi, I am {name}!")
+from Dog import Dog
 
-greet("Sasini")
+dog = Dog("Woffy")
+
+print(dog.name)
